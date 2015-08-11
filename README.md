@@ -51,7 +51,7 @@ See the example demos, the source code of Zen and the introductory ZenGuide (pdf
 
 Zen was created by Lawrence Angrave at the University of Illinois. It can run either as a standalone program or as part of a Java applet. Future versions may not support applets which will allow the code to be significantly simplified.
 
-The ZenGuide (ZenGuide2013.pdf) was created by a student at the University of Illinois.
+The Zen Guide (ZenGuide2013.pdf) was created by a student,John Lee, at the University of Illinois.
 
 # License information
 
@@ -79,7 +79,8 @@ This is internal in complexity to allow novices to create extremely simple progr
 * Can I use Zen in multithreaded programs?
 Yes if all of your Zen calls are from the same thread or you change Zen source code to aways return the same Zen object.
 
-* How do I publish my creation as a web applet?
-After you have your program running you will need to copy your program (.class files,images etc) to your web server.
-You will need a web browser that supports Java applets. Most people disable Java applets because they are a security risk.
-Secondly you need to modify the ant build script 'buildWebPages.xml' inside the publish/ subdirectory to compile your program. Running ant scripts is easy in Eclipse (just right click on them).
+* How do I publish my awesome program as a web applet?
+
+Caution: You will need a web browser that supports Java applets but most people today disable Java applets because they are a security risk.
+
+There is an ant build script 'buildWebPages.xml' inside the publish/ subdirectory that will bundle up all of the files into a single "jar" file. This file can create all of the example demos and can be modified to create additional web applets and html resources. The jar file is given a unique name to ensure that web browsers don't use an old version when the page is reloaded. By the way, running ant scripts is easy if you are using Eclipse - just right click on them and select Run As ant.
