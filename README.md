@@ -46,16 +46,18 @@ public class ExampleArrowKeys {
 ```
 The above example also uses double buffering. This is where your code creates a hidden picture. Only when 'flipBuffer' is called is it displayed on the screen. Double buffering reduces flickering because only completed pictures are presented to the user. Double buffering is automatically enabled the first time 'flipBuffer' is called.
 
-See the example demos for more information and the source code of Zen.
+See the example demos, the source code of Zen and the introductory ZenGuide (pdf) for more information.
 
 # About Zen
 
 Zen was created by Lawrence Angrave at the University of Illinois. It can run either as a standalone program or as part of a Java applet. Future versions may not support applets which will allow the code to be significantly simplified.
 
+The ZenGuide (ZenGuide2013.pdf) was created by a student at the University of Illinois.
 
 # License
 
-Yes - you can use Zen in your own commercial and non-commercial projects.
+Yes - you can use Zen source code in your own commercial and non-commercial projects.
+
 ZenGraphics is provided here under the The MIT License (MIT) - see the LICENSE file for details. However you may also re-license the source code Zen.java under any open source license approved by the Open Source Initiative (http://opensource.org/licenses) and use the source code,Zen.java, under those terms. An acknowledgement of this original work by Lawrence Angrave, and a link to this github project would be appreciated but is not required.
 
 The sprite images "sprite1.gif" and "sprite2.gif" are by Philipp Lenssen and provided under the 
