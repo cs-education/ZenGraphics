@@ -83,7 +83,5 @@ This internal complexity is to allow novices to create extremely simple programs
 Yes if all of your Zen calls are from the same thread or you change Zen.java getInstance method to aways return the same Zen object.
 
 * How do I publish my awesome program as a web applet?
-
 Caution: You will need a web browser that supports Java applets but most people today disable Java applets because they are a security risk.
-
 There is an ant build script 'buildWebPages.xml' inside the publish/ subdirectory that will bundle up all of the files into a single "jar" file. This file can create all of the example demos and can be modified to create additional web applets and html resources. The jar file is given a unique name to ensure that web browsers don't use an old version when the page is reloaded. By the way, running ant scripts is easy if you are using Eclipse - just right click on them and select Run As ant.
