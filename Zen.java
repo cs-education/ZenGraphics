@@ -1,3 +1,29 @@
+/*Copyright (c) 2010 Lawrence Angrave
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+YOU MAY ALSO RE-LICENSE THE SOURCE CODE ZEN.JAVA UNDER ANY OPEN SOURCE LICENSE
+APPROVED BY THE OPEN SOURCE INITIATIVE (http://opensource.org/licenses) AND 
+USE THE SOURCE CODE, ZEN.JAVA, UNDER THOSE TERMS. AN ACKNOWLEDGEMENT OF THIS 
+ORIGINAL WORK BY LAWRENCE ANGRAVE, AND A LINK TO THIS GITHUB PROJECT WOULD BE 
+APPRECIATED BUT IS NOT REQUIRED.
+*/
 import java.awt.Color;
 import java.awt.Cursor;
 import java.awt.Dimension;
