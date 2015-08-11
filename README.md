@@ -41,7 +41,6 @@ public class ExampleArrowKeys {
 			Zen.sleep(8); // Pause for 8 milliseconds
 		} 
 	}
-
 }
 ```
 The above example also uses double buffering. This is where your code creates a hidden picture. Only when 'flipBuffer' is called is it displayed on the screen. Double buffering reduces flickering because only completed pictures are presented to the user. Double buffering is automatically enabled the first time 'flipBuffer' is called.
@@ -54,7 +53,7 @@ Zen was created by Lawrence Angrave at the University of Illinois. It can run ei
 
 The ZenGuide (ZenGuide2013.pdf) was created by a student at the University of Illinois.
 
-# License
+# License information
 
 Yes - you can use Zen source code in your own commercial and non-commercial projects.
 
@@ -67,3 +66,20 @@ http://creativecommons.org/licenses/by/3.0/
 The complete set of original sprites can be found here - 
 http://blogoscoped.com/archive/2006-08-08-n51.html
 
+Generated example web pages use "j2h.jar" to create colorized source code (see publish/). This library is licensed under the GPL (see j2h-license-gpl.txt) but is not required for Zen itself
+
+# FAQ
+
+* Can I modify or extend Zen?
+Yes - of course! However we politely ask that you name your creation something other than Zen and include a reference back to this original project. 
+
+* I looked Zen's source code. Why does Zen use static (class) methods then use thread local storage to call instance methods?
+This is internal in complexity to allow novices to create extremely simple programs that still work when published to the web. A web page can have more than applet running and each applet will be identified by its own thread. Eventually this convoluted implementation can be removed when we no longer want to support applets.
+
+* Can I use Zen in multithreaded programs?
+Yes if all of your Zen calls are from the same thread or you change Zen source code to aways return the same Zen object.
+
+* How do I publish my creation as a web applet?
+After you have your program running you will need to copy your program (.class files,images etc) to your web server.
+You will need a web browser that supports Java applets. Most people disable Java applets because they are a security risk.
+Secondly you need to modify the ant build script 'buildWebPages.xml' inside the publish/ subdirectory to compile your program. Running ant scripts is easy in Eclipse (just right click on them).
