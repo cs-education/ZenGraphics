@@ -70,14 +70,17 @@ Generated example web pages use "j2h.jar" to create colorized source code (see p
 
 # FAQ
 
-* Can I modify or extend Zen?
-Yes - of course! However we politely ask that you name your creation something other than Zen and include a reference back to this original project. 
+* Can I modify or extend ZenGraphics?
+Yes - of course! However we politely ask that you name your creation something other than ZenGraphics and include a reference back to this original project. Zengraphics itself is aimed at beginners and will remain small and limited.
 
-* I looked Zen's source code. Why does Zen use static (class) methods then use thread local storage to call instance methods?
-This is internal in complexity to allow novices to create extremely simple programs that still work when published to the web. A web page can have more than applet running and each applet will be identified by its own thread. Eventually this convoluted implementation can be removed when we no longer want to support applets.
+* Are there more advanced or modified versions of ZenGraphics already?
+Yes - for example https://github.com/keshavsaharia/Zen
+
+* I looked at Zen.java Why does Zen use static (class) methods then use thread local storage to call instance methods?
+This internal complexity is to allow novices to create extremely simple programs that still work when published to the web. A web page can have more than applet running and each applet will be identified by its own thread. Eventually this convoluted implementation can be removed when we no longer want to support applets.
 
 * Can I use Zen in multithreaded programs?
-Yes if all of your Zen calls are from the same thread or you change Zen source code to aways return the same Zen object.
+Yes if all of your Zen calls are from the same thread or you change Zen.java getInstance method to aways return the same Zen object.
 
 * How do I publish my awesome program as a web applet?
 
